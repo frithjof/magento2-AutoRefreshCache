@@ -1,8 +1,13 @@
 # magento2-AutoRefreshCache
 Magento 2 module to automatically refresh cache using cron.
+For many shops you want to get changes to frontend as soon as possible and you are annoyed by clicking through cache refresh.
 
 Please run these commands in CLI 
-php bin/magentosetup:upgrade
+
+php bin/magento setup:upgrade
+
+php bin/magento setup:di:compile
+
 php bin/magento cache:flush
 
 make sure cron:run is in your crontab

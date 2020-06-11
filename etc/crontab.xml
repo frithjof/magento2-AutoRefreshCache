@@ -1,6 +1,6 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
     <group id="default">
-        <job name="gideon_autorefreshcache_cron" instance="Gideon\AutoRefreshCache\Model\Cron" method="myCronFunction">
+        <job name="gfe_autorefreshcache_cron" instance="Gfe\AutoRefreshCache\Model\Cron" method="myCronFunction">
             <schedule>*/2 * * * *</schedule>
         </job>
     </group>

@@ -1,5 +1,5 @@
 <?php
-namespace Gideon\AutoRefreshCache\Model;
+namespace Gfe\AutoRefreshCache\Model;
 
 use Magento\Backend\App\Action\Context;
 use Magento\Backend\App\Action;

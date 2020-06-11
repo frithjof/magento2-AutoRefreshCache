@@ -5,10 +5,8 @@ Please run these commands in CLI
 php bin/magentosetup:upgrade
 php bin/magento cache:flush
 
-Please set cron by running this command:
-crontab -e
+make sure cron:run is in your crontab
 
-Set this crontab:
-*/2 * * * * php /var/www/html/magento2/bin/magentocron:run
+this is based on https://www.emiprotechnologies.com/technical_notes/magento-technical-notes-60/post/automatically-refresh-cache-using-cron-in-magento-2-484
 
-Save and exit and you are all set.
+this is just so you can easily use it as a composer module

@@ -2,6 +2,8 @@
 Magento 2 module to automatically refresh cache using cron.
 For many shops you want to get changes to frontend as soon as possible and you are annoyed by clicking through cache refresh.
 
+If you like this and it helps you consider donating here https://paypal.me/frithjofdev
+
 Install
 
 **composer require gfe/autorefreshcache:dev-master**
